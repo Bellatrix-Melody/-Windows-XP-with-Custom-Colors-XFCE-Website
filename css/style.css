@@ -69,7 +69,7 @@ nav ul li a::after{
 
 }
 nav ul li a:hover::after{
-  opacity: 1;
+  opacity: .5;
 }
 
 nav ul li a:hover {
