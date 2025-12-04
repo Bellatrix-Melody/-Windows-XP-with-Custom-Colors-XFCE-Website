@@ -42,7 +42,7 @@ nav ul li {
   background-image: url(images/toolbar_button.png);
   background-size: cover;
   float: left;
-  border: 2px solid ;
+  border: 2px transparent;
 }
 
 nav ul li a {
@@ -56,9 +56,9 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
-  color: palegreen;
-  text-stroke: 1px palegreen;
-  -webkit-text-stroke: 1px palegreen;
+  color: white;
+  text-stroke: 1px white;
+  -webkit-text-stroke: 1px white;
   background-color: blue;
 }
 
