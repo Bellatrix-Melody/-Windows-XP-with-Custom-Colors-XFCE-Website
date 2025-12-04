@@ -31,7 +31,7 @@ figcaption {
 }
 
 nav ul {
-  background-image: images/toolbar.png;
+  background-image: url(images/toolbar.png);
   list-style: none;
   padding: 0;
   magin: 0;
@@ -39,7 +39,7 @@ nav ul {
 }
 
 nav ul li {
-  background-image: images/toolbar.png;
+  background-image: url(images/toolbar.png);
   float: left;
   border: 2px solid ;
 }
