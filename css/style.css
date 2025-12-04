@@ -38,7 +38,7 @@ nav ul {
 }
 
 nav ul li {
-  background-color:#f1f1eb;
+  background-color: transparent;
   background-image: url(images/toolbar_button.png);
   background-size: cover;
   float: left;
