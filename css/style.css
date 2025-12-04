@@ -31,7 +31,6 @@ figcaption {
 }
 
 nav ul {
-  background-image: url(images/toolbar.png);
   list-style: none;
   padding: 0;
   magin: 0;
@@ -40,12 +39,14 @@ nav ul {
 
 nav ul li {
   background-image: url(images/toolbar.png);
+  background-size: cover;
   float: left;
   border: 2px solid ;
 }
 
 nav ul li a {
   background-image: url(images/toolbar.png);
+  background-size: cover;
   display: block;
   color: black;
   padding: 5px 8px;
