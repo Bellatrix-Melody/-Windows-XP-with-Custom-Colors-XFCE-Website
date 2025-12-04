@@ -33,15 +33,17 @@ figcaption {
 nav ul {
   list-style: none;
   padding: 2px;
-  magin: 0;
-  display: inline-block;
+  margin: 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
 
 nav ul li {
   background-color: transparent;
   background-image: url(images/toolbar_button.png);
   background-size: cover;
-  float: left;
+  background-position: center;
   border: 2px black;
 }
 
@@ -54,12 +56,24 @@ nav ul li a {
   text-decoration: none;
 }
 
+nav ul li a ::after{
+  content "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(37, 150, 190, 0.35);
+  opacity: 0;
+
+}
+nav ul li a:hover::after{
+  opacity 1;
+}
+
 nav ul li a:hover {
   text-decoration: underline;
   color: white;
   text-stroke: 1px white;
   -webkit-text-stroke: 1px white;
-  background-color: aplha(blue, .8);
+  
 }
 
 .screenreader-text {
