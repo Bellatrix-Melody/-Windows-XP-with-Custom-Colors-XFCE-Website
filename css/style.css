@@ -2,6 +2,7 @@
 body {
   font-family: Tahoma;
   background-image: url("images/bliss.jpg");
+  background-size: cover;
   color: black;
   text-align: center;
 }
