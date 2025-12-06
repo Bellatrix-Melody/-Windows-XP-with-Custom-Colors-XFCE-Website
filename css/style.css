@@ -2,8 +2,9 @@
 body {
   font-family: Tahoma;
   background-image: url("images/bliss.jpg");
-  background-size: contain;
+  background-size: auto 100%;
   background-repeat: no-repeat;
+  background-position: center top;
   color: black;
   text-align: center;
 }
