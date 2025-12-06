@@ -74,7 +74,7 @@ border-bottom: 2px solid #0831d9;
     }
   }
 
-  button[aria-label="Maximize"{
+  button[aria-label="Maximize"]{
      background-image: svg-load("images/maximize.svg");
     &:hover {
       background-image: svg-load("images/maximize_hover.svg");
