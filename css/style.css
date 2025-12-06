@@ -68,23 +68,23 @@ border-bottom: 2px solid #0831d9;
   } 
   
   button[aria-label="Minimize"] {
-    background-image: svg-load("images/minimize.svg");
+    background-image: url("images/minimize.svg");
     &:hover {
-      background-image: svg-load("images/minimize_hover.svg");
+      background-image: url("images/minimize_hover.svg");
     }
   }
 
   button[aria-label="Maximize"]{
-     background-image: svg-load("images/maximize.svg");
+     background-image: url("images/maximize.svg");
     &:hover {
-      background-image: svg-load("images/maximize_hover.svg");
+      background-image: url("images/maximize_hover.svg");
     }
   }
 
   button[aria-label="Close"]{
-     background-image: svg-load("images/close.svg");
+     background-image: url("images/close.svg");
     &:hover {
-      background-image: svg-load("images/close_hover.svg");
+      background-image: url("images/close_hover.svg");
     }  
 }
 
