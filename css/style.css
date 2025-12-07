@@ -6,7 +6,7 @@ html, body {
 body {
   font-family: Tahoma;
   background-image: url("images/bliss.jpg");
-  background-size: cover;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center top;
   color: black;
