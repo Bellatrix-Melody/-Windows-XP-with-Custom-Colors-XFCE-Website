@@ -212,7 +212,6 @@ footer {
   line-height: 1;
   gap: 0px; 
   box-sizing: border-box;
-  margin: 0;
 }
 
 footer button {
@@ -238,8 +237,8 @@ footer button[aria-label="start"] {
   align-items: center;
   background-image: url("images/task_button.png");
   background-size: cover;
-  height: 22px;
-  padding: 4 4;
+  height: 24px;
+  padding: 0 10px;
   margin: 0;
   box-sizing: border-box;
   flex-shrink: 0;
