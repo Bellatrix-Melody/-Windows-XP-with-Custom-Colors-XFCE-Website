@@ -118,6 +118,8 @@ img{
   width: 100%;
   max-width: 800px;
   height: auto;
+  padding: 0;
+  margin: 0;
 }
 
 .imgflexbox {
@@ -125,6 +127,8 @@ img{
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 figcaption {
