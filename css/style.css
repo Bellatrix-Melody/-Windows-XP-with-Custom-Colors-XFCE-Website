@@ -327,9 +327,5 @@ footer button[aria-label="start"] {
     padding: 8px 8px;
     line-height: .5;
   }
-  .imgflexbox {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
+  
 }
