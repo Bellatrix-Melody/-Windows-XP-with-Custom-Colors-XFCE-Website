@@ -232,7 +232,7 @@ footer button[aria-label="start"] {
   align-items: center;
   justify-content: center;
   background-image: url("images/task_button.png");
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100%;
   padding: 0 10px;
