@@ -227,6 +227,7 @@ footer {
   gap: 0;
   box-sizing: border-box;
   margin-top: auto;
+  flex-shrink: 0;
 }
 
 footer button[aria-label="start"] {
