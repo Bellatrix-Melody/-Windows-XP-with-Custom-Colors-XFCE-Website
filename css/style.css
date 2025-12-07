@@ -26,6 +26,10 @@ body {
   width: fit-content;
 }
 
+body, #windowbody, #window {
+  padding-left: 0;
+  margin-left: 0;
+}
 .title-bar {
   position: relative;
 }
@@ -201,15 +205,15 @@ footer {
   display: flex;
   align-items: center;
   height: 24px;
-  padding: 0 10px;
+  padding: 0; /* REMOVE padding-left to let start button touch left edge */
   margin: 0;
   border-top: 1px solid #0831d9;
   border-left: 1px solid #0831d9;
   border-right: 1px solid #001ea0;
   color: white;
   text-shadow: 1px 1px #0f1089;
-  line-height: 1.4;
-  gap: 6px;
+  line-height: 1;
+  gap: 0px; /* smaller gap between sections */
   box-sizing: border-box;
 }
 
@@ -223,6 +227,7 @@ footer button {
   padding: 0;
   margin: 0;
   flex-shrink: 0;
+  display: block; /* ensures no extra space */
 }
 
 footer button[aria-label="start"] {
@@ -249,16 +254,17 @@ footer button[aria-label="start"] {
   margin: 0;
   font-size: 12px;
   color: white;
-  line-height: 1;
+  line-height: 22px; /* exactly the height of the container */
   white-space: nowrap;
 }
 
 .taskbtn a {
   color: white;
   text-decoration: none;
-  line-height: 1;
+  line-height: 22px; /* match parent height */
   white-space: nowrap;
 }
+
 
 
 
