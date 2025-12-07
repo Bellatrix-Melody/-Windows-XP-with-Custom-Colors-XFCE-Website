@@ -2,7 +2,7 @@
 body {
   font-family: Tahoma;
   background-image: url("images/bliss.jpg");
-  background-size: auto 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
   min-height: 100vh; 
@@ -114,6 +114,19 @@ p {
   margin-right: 1%;
 }
 
+img{
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.imgflexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 figcaption {
   font-size: 12px;
 }
@@ -159,6 +172,10 @@ nav ul li a:hover {
   text-decoration: underline;
   color: black;
 
+}
+
+footer {
+  image
 }
 
 .screenreader-text {
