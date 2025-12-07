@@ -212,6 +212,7 @@ footer {
   line-height: 1;
   gap: 0px; 
   box-sizing: border-box;
+  padding-top: 20px;
 }
 
 footer button {
@@ -225,7 +226,7 @@ footer button {
   margin: 0;
   flex-shrink: 0;
   display: block; 
-  padding-top: 20px;
+
 }
 
 footer button[aria-label="start"] {
