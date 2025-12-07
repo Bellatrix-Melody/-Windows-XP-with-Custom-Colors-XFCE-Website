@@ -1,26 +1,28 @@
 html, body {
   height: 100%;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 body {
   font-family: Tahoma;
   background-image: url("images/bliss.jpg");
-  background-size: auto 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
-  color: black;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  color: black;
+  text-align: center;
 }
 
 #windowbody {
+  flex: 1;
+  overflow: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1;
   margin: 20px;
 }
 
@@ -54,7 +56,6 @@ body {
     rgba(0, 61, 215, 1) 96%,
     rgba(0, 61, 215, 1) 100%
   );
-  padding: 0;
   border-top: 1px solid #0831d9;
   border-left: 1px solid #0831d9;
   border-right: 1px solid #001ea0;
@@ -63,7 +64,7 @@ body {
   height: 28px;
   color: white;
   text-align: left;
-  padding-left: 10px;
+  padding: 0 0 0 10px;
   margin: 0;
   line-height: 2;
 }
@@ -226,8 +227,8 @@ footer {
   line-height: 1;
   gap: 0;
   box-sizing: border-box;
-  margin-top: auto;
   flex-shrink: 0;
+  margin-top: auto;
 }
 
 footer button[aria-label="start"] {
@@ -279,7 +280,6 @@ footer button[aria-label="start"] {
   left: -999px;
   width: 1px;
   height: 1px;
-  top: auto;
 }
 
 .screenreader-text:focus {
