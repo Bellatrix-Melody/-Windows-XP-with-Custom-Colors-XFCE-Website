@@ -209,6 +209,8 @@ footer {
   padding-left: 10px;
   margin: 0;
   line-height: 2;
+  display: flex;              
+  align-items: left;
 }
 
 footer button {
