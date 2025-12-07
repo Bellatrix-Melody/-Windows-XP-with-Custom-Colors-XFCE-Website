@@ -188,6 +188,9 @@ nav ul li a:hover {
 }
 
 footer {
+  display: flex;
+  align-items: stretch;
+  height: 24px;
   font-family: "Tahoma";
   background: linear-gradient(
     180deg,
@@ -200,24 +203,20 @@ footer {
     rgba(0, 61, 215, 1) 96%,
     rgba(0, 61, 215, 1) 100%
   );
-  display: flex;
-  align-items: center;
-  height: 24px;
-  padding: 0; 
-  margin: 0;
   border-top: 1px solid #0831d9;
   border-left: 1px solid #0831d9;
   border-right: 1px solid #001ea0;
   color: white;
   text-shadow: 1px 1px #0f1089;
   line-height: 1;
-  gap: 0px; 
+  gap: 0px;
   box-sizing: border-box;
 }
 
-footer button {
+footer button[aria-label="start"] {
   width: 74px;
-  height: 24px;
+  height: 100%;
+  background-image: url("images/start.png");
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
@@ -225,12 +224,7 @@ footer button {
   padding: 0;
   margin: 0;
   flex-shrink: 0;
-  display: block; 
-
-}
-
-footer button[aria-label="start"] {
-  background-image: url("images/start.png");
+  display: block;
 }
 
 .taskbtn {
@@ -238,7 +232,7 @@ footer button[aria-label="start"] {
   align-items: center;
   background-image: url("images/task_button.png");
   background-size: cover;
-  height: 24px;
+  height: 100%;
   padding: 0 10px;
   margin: 0;
   box-sizing: border-box;
@@ -249,22 +243,14 @@ footer button[aria-label="start"] {
   background-image: url("images/task_button-hover.png");
 }
 
-
-.taskbtn a {
-  color: white;
-  text-decoration: none;
-  font-size: 12px;
-  line-height: 20px; 
-  white-space: nowrap;
-}
-
 .taskbtn p,
 .taskbtn a {
   margin: 0;
   padding: 0;
-  font-size: 12px;
+  line-height: 24px;
+  height: 100%;
+  display: inline-block;
   color: white;
-  line-height: 24px; /* match footer height */
   white-space: nowrap;
 }
 
@@ -328,4 +314,15 @@ footer button[aria-label="start"] {
     align-items: center;
     justify-content: center;
   }
+  .taskbtn p,
+  .taskbtn a {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: white;
+    line-height: 24px; /* match footer height */
+    white-space: nowrap;
+  }
+
 }
+
