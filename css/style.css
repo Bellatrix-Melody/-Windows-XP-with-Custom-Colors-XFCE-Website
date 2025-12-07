@@ -124,7 +124,7 @@ img{
 
 .imgflexbox {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 0;
@@ -243,4 +243,14 @@ footer {
     padding: 8px 8px;
     line-height: .50;
   }
+
+  .imgflexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
 }
