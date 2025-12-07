@@ -256,6 +256,10 @@ footer button[aria-label="start"] {
   text-decoration: underline;
 }
 
+.taskbtn a {
+  background-size: contain;
+}
+
 .screenreader-text {
   position: absolute;
   left: -999px;
