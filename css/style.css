@@ -7,11 +7,13 @@ body {
   min-height: 100vh;
   color: black;
   text-align: center;
+}
+
+#windowbody{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 #window {
   border-bottom: 2px solid #0831d9;
   border-left: 3px solid #0831d9;
@@ -204,7 +206,6 @@ footer {
   text-shadow: 1px 1px #0f1089;
   height: 16px;
   color: white;
-  text-align: left;
   padding-left: 10px;
   margin: 0;
   line-height: 2;
@@ -212,7 +213,6 @@ footer {
 
 footer button {
   display: flex;
-  position: absolute;
   top: 0;
   left: 0;
   width: 74px;
