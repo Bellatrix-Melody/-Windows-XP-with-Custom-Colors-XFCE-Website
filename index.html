@@ -65,12 +65,12 @@
             <div class="imgflexbox">
               <figure>
                 <img src="images/tsukasa-theme.png"
-                  alt="A picture of recolored windows xp theme with an anime background" />
+                  alt="A picture of recolored windows xp theme with an anime background">
                 <figcaption>An example of a light background with a dark color scheme.</figcaption>
               </figure>
               <figure>
                 <img src="images/ccs-theme.png"
-                  alt="A picture of recolored windows xp theme with an anime background" />
+                  alt="A picture of recolored windows xp theme with an anime background">
                 <figcaption>
                   An example of a light background with a light color scheme as well as custom icons using the
                   custom icon swapper tool
@@ -81,11 +81,11 @@
             <div class="imgflexbox">
               <figure>
                 <img src="images/mimiru-theme.png"
-                  alt="A picture of recolored windows xp theme with an anime background" />
+                  alt="A picture of recolored windows xp theme with an anime background">
                 <figcaption>An example of a very vibrant color scheme</figcaption>
               </figure>
               <figure>
-                <img src="images/unit01.png" alt="A picture of recolored windows xp theme with an anime background" />
+                <img src="images/unit01.png" alt="A picture of recolored windows xp theme with an anime background">
                 <figcaption>An example of a dark background with a vibrant color scheme.</figcaption>
               </figure>
             </div>
@@ -93,26 +93,26 @@
             <div class="imgflexbox">
               <figure>
                 <img src="images/haibane-theme.png"
-                  alt="A picture of recolored windows xp theme with an anime background" />
+                  alt="A picture of recolored windows xp theme with an anime background">
                 <figcaption>
                   An example of a very dark color scheme against a very light background
                 </figcaption>
               </figure>
               <figure>
                 <img src="images/lain-theme.png"
-                  alt="A picture of recolored windows xp theme with an anime background" />
+                  alt="A picture of recolored windows xp theme with an anime background">
                 <figcaption>An example using an almost monochrome color scheme.</figcaption>
               </figure>
             </div>
 
             <div class="imgflexbox">
               <figure>
-                <img src="images/haibane2.png" alt="A picture of recolored windows xp theme with an anime background" />
+                <img src="images/haibane2.png" alt="A picture of recolored windows xp theme with an anime background">
                 <figcaption>An example using earth tones</figcaption>
               </figure>
               <figure>
                 <img src="images/bebop-theme.png"
-                  alt="A picture of recolored windows xp theme with an anime background" />
+                  alt="A picture of recolored windows xp theme with an anime background">
                 <figcaption>An example capturing sunset colors.</figcaption>
               </figure>
             </div>
@@ -139,22 +139,24 @@
 
               <ol>
                 <li><strong>Python 3 & Python 3 venv</strong>: You can get this from your software manager or the
-                  repositories via these commands:</li>
+                  repositories via these commands:
 
-                <div class="codebox">
-                  <pre class="code">sudo apt install python3 python3-venv</pre>
-                </div>
+                  <div class="codebox">
+                    <pre class="code">sudo apt install python3 python3-venv</pre>
+                  </div>
+                </li>
 
                 <li><strong>ImageMagick</strong>: Included in the repository is a script to install Image Magick that
                   comes from this <a href="https://github.com/SoftCreatR/imei/blob/main/">repo</a>. Open a terminal in
                   the repo folder (RedmondXP-Color-Customizer-for-XFCE-main/) and give it execute permissions then run
-                  it via: </li>
+                  it via: 
 
-                <div class="codebox">
-                  <pre class="code">sudo chmod +x magick_install.sh ;
-                                                      ./magick_install.sh
-                                      </pre>
-                </div>
+                  <div class="codebox">
+                    <pre class="code">sudo chmod +x magick_install.sh ;
+                                                        ./magick_install.sh
+                                        </pre>
+                  </div>
+                </li>
               </ol>
 
               <p>If you'd rather get this directly from Image Magick and not give sudo permissions from a install script
@@ -172,7 +174,6 @@
               <p>Place your desired background images in Windows-XP-with-Custom-Colors-XFCE-main/backgrounds/ folder,
                 then open a terminal in the repository folder RedmondXP-Color-Customizer-for-XFCE-main/ and run the
                 script via:</p>
-              </p>
               <div class="codebox">
                 <pre class="code">./redmond_color_converter.sh</pre>
               </div>
@@ -200,19 +201,22 @@
 
               <h4>Known Bugs</h4>
               <ol>
-                <li><strong>Clock text not updating color</strong></li>
-                <p>When using a custom font on the clock in the XFCE panel the text color does not change. If you run
-                  into this you can change it manually by going to the clock settings and making a custom format. You
-                  can insert the following code into the custom format field and change the colors to black (#000000) or
-                  white (#FFFFFF) or some other custom hex color of your choosing to change the text color.</p>
-                <div class="codebox">
-                  <pre class="code">&lt;span color="#000000"&gt;%l:%M:%P&lt;/span&gt;</pre>
-                  <li>A single line of pixels above the system tray</li>
+                <li><strong>Clock text not updating color</strong>
+                  <p>When using a custom font on the clock in the XFCE panel the text color does not change. If you run
+                    into this you can change it manually by going to the clock settings and making a custom format. You
+                    can insert the following code into the custom format field and change the colors to black (#000000) or
+                    white (#FFFFFF) or some other custom hex color of your choosing to change the text color.</p>
+                  <div class="codebox">
+                    <pre class="code">&lt;span color="#000000"&gt;%l:%M:%P&lt;/span&gt;</pre>
+                  </div>
+                </li>
+                <li>A single line of pixels above the system tray
                   <p> There will sometime be a single line of pixels above the system tray that is your primary color. A
                     solution to this has been researched but not found. It is seemingly due to how XFCE draws the tray
                     and is not affected by the CSS of the theme or by manually editing the image that makes up the
                     system tray. Recommendation: if it bothers you plan around it with your color scheme. Generally a
                     darker panel with a light system tray makes it stand out much less.</p>
+                </li>
               </ol>
             </article>
           </div>
@@ -338,11 +342,11 @@
                 <pre>testS=0
 magickS=0
 
-until [[ magickS >= targetS - 1 && magickS <= targetS + 1  ]]
+until [[ magickS &gt;= targetS - 1 &amp;&amp; magickS &lt;= targetS + 1  ]]
 do
     magick colortest/msblue.png -set option:modulate:colorspace hsl -modulate 100,$testS,$convertedH colortest/msnotblue.png
     msnotblue=$(magick colortest/msnotblue.png -scale 1x1! -format "%[hex:u.p]\n" info:)
-    read magickH magickS magickL < <(converter_tester)
+    read magickH magickS magickL &lt; &lt;(converter_tester)
     ((testS++))
       
 done
@@ -378,16 +382,16 @@ convertedS=$testS
               <br>
 
               <p>Here the variable "msnotblue" is set to be equal to the same command that was ran earlier to find the
-                average color of an image in hex format but on the image that was just created i.e. msnotblue.png.
-
-              </p>Since the goal is to test the a value and not a hex value, the output of that command needs to be
+                average color of an image in hex format but on the image that was just created i.e. msnotblue.png.</p>
+                
+              <p>Since the goal is to test the a value and not a hex value, the output of that command needs to be
               converted to a HSL format which is why it is stored it in a variable, so that this command can be run:
               </p>
 
               <p><strong>Command 3:</strong></p>
 
               <div class="codebox">
-                <pre>read magickH magickS magickL < <(converter_tester)</pre>
+                <pre>read magickH magickS magickL &lt; &lt;(converter_tester)</pre>
               </div>
               <br>
 
@@ -421,7 +425,7 @@ convertedS=$testS
 
             <figure>
               <img src="images/this-is-stupid.gif" alt="An image showing text in all caps saying 'THIS' 'IS' 'STUPID'"
-                style="max-width: 497px;" />
+                style="max-width: 497px;">
               <figcaption>It is stupid, but it works.</figcaption>
             </figure>
 
